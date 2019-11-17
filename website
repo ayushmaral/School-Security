@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn.glitch.com/4d75beb5-1957-48e2-b174-59e6e7ce96d6%2Ffavicon.ico?v=1573968028154s"/>
+    <title>ARGUS</title>
+    <script src="https://kit.fontawesome.com/d7cd570ad0.js" crossorigin="anonymous"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>   
+  <body id="main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">ARGUS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="benefit.html">Benefit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <h1 class="main_title">Project ARGUS</h1>
+    <div class="line"> </div>
+    <h3 class="quote">Your SECURITY is our BIGGGEST PRIORITY</h3>
+    <a href="benefit.html"><i class="fas fa-chevron-down"></i></a>
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn.glitch.com/4d75beb5-1957-48e2-b174-59e6e7ce96d6%2Ffavicon.ico?v=1573968028154s"/>
+    <title>ARGUS</title>
+    <script src="https://kit.fontawesome.com/d7cd570ad0.js" crossorigin="anonymous"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>   
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">ARGUS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="benefit.html">Benefit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <!DOCTYPE html>
+<html>
+  <title style="font-size: 50px;">Project ARGUS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <body>
+    <div
+      class="w3-sidebar w3-bar-block w3-card w3-animate-left"
+      style="display:none"
+      id="mySidebar"
+    >
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
+        Close &times;
+      </button>
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+
+    <div id="main">
+      <div class="w3-indigo">
+        <button
+          id="openNav"
+          class="w3-button w3-indigo w3-xlarge"
+          onclick="w3_open()"
+        >
+          &#9776;
+        </button>
+        <div class="w3-container">
+          <h1><center>Project ARGUS</center></h1>
+        </div>
+      </div>
+
+      <div class="w3-container w3-white">
+        <p style="font-size:18px; text-align: justify;font-family: Times New Roman">
+          Project ARGUS is a real time face-recognition based application that
+          focuses on safety in schools. The camera will be placed in classrooms
+          and different parts of a school with pre-installed software that uses
+          video, which automatically registers student faces and matches them
+          with faces from a database and corresponding names. At the moment,
+          ARGUS will specialize with taking attendance for schools by matching
+          faces to a database, keeping track of time that students are present
+          in class, and automatically notifying the teacher via email and voice.
+          Project ARGUS can also be situated around schools for security
+          measures by identifying unknown faces. The potential of ARGUS for
+          future implementations is endless, ranging from any form of security
+          to validifying transactions.
+        </p>
+      </div>
+
+      <script>
+        function w3_open() {
+          document.getElementById("main").style.marginLeft = "25%";
+          document.getElementById("mySidebar").style.width = "25%";
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("openNav").style.display = "none";
+        }
+        function w3_close() {
+          document.getElementById("main").style.marginLeft = "0%";
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("openNav").style.display = "inline-block";
+        }
+      </script>
+      <div class="w3-container w3-white">
+        <div class="w3-panel w3-leftbar w3-indigo">
+          <p class="w3-xlarge w3-serif">
+            <i style="font-size: 30px">"Security is not a product, but a proccess."</i>
+          </p>
+          <p>Bruce Schneier</p>
+        </div>
+      </div>
+      <!DOCTYPE html>
+      <html>
+        <title>W3.CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="stylesheet"
+          href="https://www.w3schools.com/w3css/4/w3.css"
+        />
+        <body>
+          <p class="w3-container w3-white" style="font-size: 18px; text-align: justify;font-family: Times New Roman">
+            As Project ARGUS has many real-world applications, its back-end development was intentionally made to be able to cater for any
+            necessary need. Thus, machine learning and deep neural networks were utlized to be able to detect objects and connect it to the 
+            database. Machine learning is the ability for the computer to use algorithms to accomplish a goal without specific directions. In 
+            order to reach its goal, the computer looks and infers patterns among a data set. This was accomplished by downloading the package
+            OpenCV, which specializes in object detection and can be trained for various needs. Along with machine learning, deep neural networks were also used. At its basis, deep neural 
+            networks are built using algorithms based on inspiration of how neurons in the brain function. Raw input is taken from sensory data, 
+            which is then recognized as numerical patterns to be stored as vectors. The vectors then can be translated back into real word data.
+          </p>
+        </body>
+      </html>
+    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial;
+        margin: 0;      
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      /* Position the image container (needed to position the left and right arrows) */
+      .container {
+        position: relative;
+      }
+
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor {
+        cursor: pointer;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      /* Container for image text */
+      .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Six columns side by side */
+      .column {
+        float: left;
+        width: 16.66%;
+      }
+
+      /* Add a transparency effect for thumnbail images */
+      .demo {
+        opacity: 0.6;
+      }
+
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+    </style>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn.glitch.com/4d75beb5-1957-48e2-b174-59e6e7ce96d6%2Ffavicon.ico?v=1573968028154s"/>
+    <title>ARGUS</title>
+    <script src="https://kit.fontawesome.com/d7cd570ad0.js" crossorigin="anonymous"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>   
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">ARGUS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="benefit.html">Benefit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <body>
+      <h2 style="text-align:center; color:black;">Pictures Of Our Project</h2>
+
+      <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 9</div>
+    <img src="https://media.discordapp.net/attachments/636400856639602688/645503824798154772/653943-what-is-machine-learning.jpg?width=800&height=451" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 9</div>
+    <img src="https://media.discordapp.net/attachments/636400856639602688/645385050388693002/classroom2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 9</div>
+    <img src="https://cdn.discordapp.com/attachments/636400856639602688/645385081942310942/Screen_Shot_2019-11-11_at_7.35.06_PM.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 9</div>
+    <img src="https://cdn.discordapp.com/attachments/636400856639602688/645407925426454538/class.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 9</div>
+    <img src="https://cdn.discordapp.com/attachments/636400856639602688/645407334595690535/Screen_Shot_2019-11-16_at_3.37.42_PM.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 9</div>
+    <img src="https://media.discordapp.net/attachments/636400856639602688/645400539072561153/yolo_dl4cv.jpg" style="width:100%">
+  </div>
+        
+  <div class="mySlides">
+    <div class="numbertext">7 / 9</div>
+    <img src="https://media.discordapp.net/attachments/636400856639602688/645502778353123329/Summary-of-Predictions-made-by-YOLO-Model-2.png?width=800&height=518" style="width:100%">
+  </div>
+        
+  <div class="mySlides">
+    <div class="numbertext">8 / 9</div>
+    <img src="https://media.discordapp.net/attachments/636400856639602688/645503143605567507/opencv_face_reco_facenet-1.jpg" style="width:100%">
+  </div>
+        
+  <div class="mySlides">
+    <div class="numbertext">9 / 9</div>
+    <img src="https://cdn.discordapp.com/attachments/636400856639602688/645384674683912201/Screen_Shot_2019-11-16_at_2.06.44_PM.png" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://media.discordapp.net/attachments/636400856639602688/645503824798154772/653943-what-is-machine-learning.jpg?width=800&height=451" style="width:100%" onclick="currentSlide(1)" alt="Without Facial Recognition">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.discordapp.net/attachments/636400856639602688/645385050388693002/classroom2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Caculated Similarity Using Facial Recognition">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.discordapp.com/attachments/636400856639602688/645385081942310942/Screen_Shot_2019-11-11_at_7.35.06_PM.png" style="width:100%" onclick="currentSlide(3)" alt="Known Datasets">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.discordapp.com/attachments/636400856639602688/645407925426454538/class.jpg" style="width:100%" onclick="currentSlide(4)" alt="Without Object and Facial Recognition">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.discordapp.com/attachments/636400856639602688/645407334595690535/Screen_Shot_2019-11-16_at_3.37.42_PM.png" style="width:100%" onclick="currentSlide(5)" alt="With Object and Facial Recognition">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://media.discordapp.net/attachments/636400856639602688/645400539072561153/yolo_dl4cv.jpg" style="width:100%" onclick="currentSlide(6)" alt="YOLO and OPENCV In Action">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.discordapp.net/attachments/636400856639602688/645502778353123329/Summary-of-Predictions-made-by-YOLO-Model-2.png?width=800&height=518" style="width:100%" onclick="currentSlide(7)" alt="The Process of Object Recognition">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.discordapp.net/attachments/636400856639602688/645503143605567507/opencv_face_reco_facenet-1.jpg" style="width:100%" onclick="currentSlide(8)" alt="The Process of Facial Recognition">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.discordapp.com/attachments/636400856639602688/645384674683912201/Screen_Shot_2019-11-16_at_2.06.44_PM.png" style="width:100%" onclick="currentSlide(9)" alt="Unknown Image Files">
+    </div>
+  </div>
+</div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+
+        function currentSlide(n) {
+          showSlides((slideIndex = n));
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+      </script>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+          html {
+            box-sizing: border-box;
+          }
+
+          *,
+          *:before,
+          *:after {
+            box-sizing: inherit;
+          }
+
+          .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+          }
+
+          @media screen and (max-width: 650px) {
+            .column {
+              width: 100%;
+              display: block;
+            }
+          }
+
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          }
+
+          .container {
+            padding: 0 16px;
+          }
+
+          .container::after,
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+
+          .title {
+            color: grey;
+          }
+
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+          }
+
+          .button:hover {
+            background-color: #555;
+          }
+        </style>
+      </head>
+      <body>
+        <br />
+      </body>
+  </body>
+  </body>
+</html>
